@@ -14,4 +14,7 @@ the input then has a simple assessment performed to see if it meets some basic c
 ## Milestone 3
 A little more complicated on this time around. I decided to assist with troubleshooting the code, i used set words and guesses and this proved quite useful when converting our previous pieces of code into 2 functions. The function which assessed the input gave the most trouble whereas the function which checks if the character is in the word or not behaved as intended right from the start. 
 
-instructions requested the use of "while True:" and a break statement so managed to implement these. although i do feel they may not have been needed. I may revisit it later on to write a cleaner function. and when placing to a function code the function needs to return the updated guess. 
+instructions requested the use of "while True:" and a break statement so managed to implement these. although i do feel they may not have been needed. I may revisit it later on to write a cleaner function. and when placing to a function code the function needs to return the updated guess.
+
+## Milestone 4
+This milestone provided a bid step towards producing a functionng game. there were some challenges along the way. The game appears to function well but i would like to enhance the user experience by having the game offer info back to the player by offering more details on what letters have been played already, the puzzle so far and even how many lives remaining on each turn regardless of whether as right or wrong answer has been given. i hope to achieve some of this on the next milestone when compiling the final finished game.
