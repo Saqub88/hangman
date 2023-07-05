@@ -27,6 +27,11 @@ jobs:
           pip install hangman-marking-aicore
 # python -m spacy download en_core_web_md
 
+      - name: Save state
+        run: echo "{name}={value}" >> $GITHUB_STATE
+
+      - name: Set output
+        run: echo "{name}={value}" >> $GITHUB_OUTPUT
 
       - name: Tick off boxes in milestone 1
         id: tick-off-milestone-1
